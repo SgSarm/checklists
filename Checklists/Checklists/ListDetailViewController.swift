@@ -38,6 +38,20 @@ class ListDetailViewController: UITableViewController, UITextFieldDelegate {
         textField.becomeFirstResponder()
     }
     
+    // MARK:- TableView Delegates
+    override func tableView(_ tableView: UITableView, willSelectRowAt indexPath: IndexPath) -> IndexPath? {
+        return nil
+    }
+    
+    // MARK:- UITextfield Delegates
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        let oldText = textField.text!
+        let stringRange = Range(range, in:oldText)!
+        let newText = oldText.replacingCharacters(in: stringRange, with: string)
+        doneBarButton.isEnabled = !newText.isEmpty
+        return true
+    }
+    
     
     // MARK:- Actions
     @IBAction func cancel() {

@@ -17,6 +17,7 @@
 		0117608C1FDBD869005EDE82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0117608A1FDBD869005EDE82 /* LaunchScreen.storyboard */; };
 		013BE0381FE285BB00DC8695 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013BE0371FE285BB00DC8695 /* ChecklistItem.swift */; };
 		013BE03C1FE2D73B00DC8695 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013BE03B1FE2D73B00DC8695 /* ItemDetailViewController.swift */; };
+		01C0A2DB1FFB6FBB007E5D08 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C0A2DA1FFB6FBB007E5D08 /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		0117608D1FDBD869005EDE82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		013BE0371FE285BB00DC8695 /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
 		013BE03B1FE2D73B00DC8695 /* ItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
+		01C0A2DA1FFB6FBB007E5D08 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				010C6FDE1FE9053900F4AEA8 /* AllListsViewController.swift */,
 				0100CB031FE965F600C0A857 /* Checklist.swift */,
 				0100CB051FE9727500C0A857 /* ListDetailViewController.swift */,
+				01C0A2DA1FFB6FBB007E5D08 /* DataModel.swift */,
 			);
 			path = Checklists;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				011760841FDBD869005EDE82 /* ChecklistViewController.swift in Sources */,
 				0100CB041FE965F600C0A857 /* Checklist.swift in Sources */,
 				013BE0381FE285BB00DC8695 /* ChecklistItem.swift in Sources */,
+				01C0A2DB1FFB6FBB007E5D08 /* DataModel.swift in Sources */,
 				010C6FDF1FE9053900F4AEA8 /* AllListsViewController.swift in Sources */,
 				011760821FDBD869005EDE82 /* AppDelegate.swift in Sources */,
 			);
