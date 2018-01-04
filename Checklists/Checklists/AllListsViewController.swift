@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AllListsViewController: UITableViewController, ListDetailViewControllerDelegate {
+class AllListsViewController: UITableViewController, ListDetailViewControllerDelegate, UINavigationControllerDelegate {
     var dataModel: DataModel!
     
     func listDetailViewControllerDidCancel(_ controller: ListDetailViewController) {
@@ -92,6 +92,19 @@ class AllListsViewController: UITableViewController, ListDetailViewControllerDel
         navigationController?.pushViewController(controller, animated: true)
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        navigationController?.delegate = self
+        
+        let index = UserDefaults.standard.integer(forKey: "ChecklistIndex")
+        
+        if index == -1 {
+            let checklist = dataModel.lists[index]
+            performSegue(withIdentifier: "ShowChecklist", sender: checklist)
+        }
+    }
+    
     func makeCell(for tableView: UITableView) -> UITableViewCell {
         let cellIdentifier = "Cell"
         if let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier) {
@@ -100,4 +113,12 @@ class AllListsViewController: UITableViewController, ListDetailViewControllerDel
             return UITableViewCell(style: .default, reuseIdentifier: cellIdentifier)
         }
     }
+    
+    func navigationController(_ navigationController: UINavigationController, willShow viewController: UIViewController, animated: Bool) {
+        // Was the back button tapped?
+        if viewController === self {
+            UserDefaults.standard.set(-1, forKey: "ChecklistIndex")
+        }
+    }
+    
 }
