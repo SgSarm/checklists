@@ -112,6 +112,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Add Checklist" largeTitleDisplayMode="never" id="g0t-sa-S4p">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="tf9-uI-C5N"/>
                         <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="qcc-Ca-ghb">
                             <connections>
                                 <action selector="cancel" destination="kAw-XQ-aUg" id="Y2N-2O-jHJ"/>
@@ -165,7 +166,9 @@
                             <outlet property="delegate" destination="1Bw-uI-BG5" id="QRV-ag-ayZ"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Choose Icon" id="E1y-cI-hRv"/>
+                    <navigationItem key="navigationItem" title="Choose Icon" id="E1y-cI-hRv">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="dVL-pe-BXc"/>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iHb-SC-gSx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
