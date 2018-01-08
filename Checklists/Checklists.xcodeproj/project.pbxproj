@@ -17,6 +17,7 @@
 		0117608C1FDBD869005EDE82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0117608A1FDBD869005EDE82 /* LaunchScreen.storyboard */; };
 		013BE0381FE285BB00DC8695 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013BE0371FE285BB00DC8695 /* ChecklistItem.swift */; };
 		013BE03C1FE2D73B00DC8695 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013BE03B1FE2D73B00DC8695 /* ItemDetailViewController.swift */; };
+		01BCEC5B1FFFB7B90063CD36 /* IconPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BCEC5A1FFFB7B90063CD36 /* IconPickerViewController.swift */; };
 		01C0A2DB1FFB6FBB007E5D08 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C0A2DA1FFB6FBB007E5D08 /* DataModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		0117608D1FDBD869005EDE82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		013BE0371FE285BB00DC8695 /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
 		013BE03B1FE2D73B00DC8695 /* ItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
+		01BCEC5A1FFFB7B90063CD36 /* IconPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconPickerViewController.swift; sourceTree = "<group>"; };
 		01C0A2DA1FFB6FBB007E5D08 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,6 +94,7 @@
 				011760831FDBD869005EDE82 /* ChecklistViewController.swift */,
 				013BE03B1FE2D73B00DC8695 /* ItemDetailViewController.swift */,
 				0100CB051FE9727500C0A857 /* ListDetailViewController.swift */,
+				01BCEC5A1FFFB7B90063CD36 /* IconPickerViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				013BE03C1FE2D73B00DC8695 /* ItemDetailViewController.swift in Sources */,
 				0100CB061FE9727500C0A857 /* ListDetailViewController.swift in Sources */,
 				011760841FDBD869005EDE82 /* ChecklistViewController.swift in Sources */,
+				01BCEC5B1FFFB7B90063CD36 /* IconPickerViewController.swift in Sources */,
 				0100CB041FE965F600C0A857 /* Checklist.swift in Sources */,
 				013BE0381FE285BB00DC8695 /* ChecklistItem.swift in Sources */,
 				01C0A2DB1FFB6FBB007E5D08 /* DataModel.swift in Sources */,
