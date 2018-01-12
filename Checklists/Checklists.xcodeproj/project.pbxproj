@@ -14,7 +14,6 @@
 		011760841FDBD869005EDE82 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011760831FDBD869005EDE82 /* ChecklistViewController.swift */; };
 		011760871FDBD869005EDE82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 011760851FDBD869005EDE82 /* Main.storyboard */; };
 		011760891FDBD869005EDE82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 011760881FDBD869005EDE82 /* Assets.xcassets */; };
-		0117608C1FDBD869005EDE82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0117608A1FDBD869005EDE82 /* LaunchScreen.storyboard */; };
 		013BE0381FE285BB00DC8695 /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013BE0371FE285BB00DC8695 /* ChecklistItem.swift */; };
 		013BE03C1FE2D73B00DC8695 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013BE03B1FE2D73B00DC8695 /* ItemDetailViewController.swift */; };
 		01BCEC5B1FFFB7B90063CD36 /* IconPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BCEC5A1FFFB7B90063CD36 /* IconPickerViewController.swift */; };
@@ -30,7 +29,6 @@
 		011760831FDBD869005EDE82 /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
 		011760861FDBD869005EDE82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		011760881FDBD869005EDE82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0117608B1FDBD869005EDE82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0117608D1FDBD869005EDE82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		013BE0371FE285BB00DC8695 /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
 		013BE03B1FE2D73B00DC8695 /* ItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
@@ -103,7 +101,6 @@
 			isa = PBXGroup;
 			children = (
 				011760881FDBD869005EDE82 /* Assets.xcassets */,
-				0117608A1FDBD869005EDE82 /* LaunchScreen.storyboard */,
 				011760851FDBD869005EDE82 /* Main.storyboard */,
 			);
 			path = Resources;
@@ -168,7 +165,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0117608C1FDBD869005EDE82 /* LaunchScreen.storyboard in Resources */,
 				011760891FDBD869005EDE82 /* Assets.xcassets in Resources */,
 				011760871FDBD869005EDE82 /* Main.storyboard in Resources */,
 			);
@@ -202,14 +198,6 @@
 				011760861FDBD869005EDE82 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0117608A1FDBD869005EDE82 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0117608B1FDBD869005EDE82 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -327,7 +315,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M325YJL5C9;
+				DEVELOPMENT_TEAM = 3Q9GXPF246;
 				INFOPLIST_FILE = Checklists/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sgsarmis.Checklists;
@@ -342,7 +330,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M325YJL5C9;
+				DEVELOPMENT_TEAM = 3Q9GXPF246;
 				INFOPLIST_FILE = Checklists/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sgsarmis.Checklists;
